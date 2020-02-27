@@ -3,6 +3,6 @@ import "./Color.scss";
 
 export class Color extends React.Component {
   render() {
-    return <div></div>
+    return <div className="color-container">Color selection is here</div>
   }
 }

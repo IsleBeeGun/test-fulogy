@@ -3,6 +3,6 @@ import "./Preview.scss";
 
 export class Preview extends React.Component {
   render() {
-    return <div></div>
+    return <div className="preview-container">Slider is here</div>
   }
 }

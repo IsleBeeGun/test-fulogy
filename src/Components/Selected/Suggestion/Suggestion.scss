@@ -1,0 +1,10 @@
+@import "../../../style-variables";
+
+.suggestion-container {
+    width: 100%;
+    background-color: royalblue;
+    min-height: $suggestion_height;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

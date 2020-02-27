@@ -3,6 +3,6 @@ import "./Navigator.scss";
 
 export class Navigator extends React.Component {
   render() {
-    return <div>I am navigator</div>
+    return <nav className="navigator-container">I am navigator</nav>
   }
 }

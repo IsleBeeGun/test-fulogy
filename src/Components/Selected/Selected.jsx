@@ -7,9 +7,13 @@ import {Power} from "./Power/Power";
 import {Sensor} from "./Sensor/Sensor";
 import {Sizes} from "./Sizes/Sizes";
 import {Variant} from "./Variant/Variant";
+import {Suggestion} from "./Suggestion/Suggestion";
 
 export class Selected extends React.Component {
   render() {
-    return <div></div>;
+    return <div className="selected-container">
+      <Suggestion />
+      <Color />
+    </div>;
   }
 }

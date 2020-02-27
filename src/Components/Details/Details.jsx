@@ -3,6 +3,6 @@ import "./Details.scss";
 
 export class Details extends React.Component {
   render() {
-    return <div></div>
+    return <div className="details-container">Details are here</div>
   }
 }
