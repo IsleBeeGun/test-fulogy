@@ -2,14 +2,16 @@
 
 .main-container {
     width: 100%;
-    min-height: calc(100vh - (#{$header_height} + #{$navigator_height}));
+    max-height: calc(100vh - (#{$header_height} + #{$navigator_height}));
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    box-sizing: border-box;
 }
 .details-and-selected-container{
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }

@@ -3,4 +3,5 @@
 .info-container {
     background-color: skyblue;
     width: $info_width;
+    box-sizing: border-box;
 }
