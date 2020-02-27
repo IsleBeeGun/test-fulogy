@@ -1,0 +1,22 @@
+{
+    "angular": {
+        "warm": ["/img/kitchens/angular/warm_1.jpg","/img/kitchens/angular/warm_2.jpg","/img/kitchens/angular/warm_3.jpg"],
+        "day": ["/img/kitchens/angular/day_1.jpg","/img/kitchens/angular/day_2.jpg","/img/kitchens/angular/day_3.jpg"],
+        "cold": ["/img/kitchens/angular/cold_1.jpg","/img/kitchens/angular/cold_2.jpg","/img/kitchens/angular/cold_3.jpg"]
+    },
+    "angular2parts": {
+        "warm": ["/img/kitchens/angular2parts/warm_1.jpg","/img/kitchens/angular2parts/warm_2.jpg","/img/kitchens/angular2parts/warm_3.jpg"],
+        "day": ["/img/kitchens/angular2parts/day_1.jpg","/img/kitchens/angular2parts/day_2.jpg","/img/kitchens/angular2parts/day_3.jpg"],
+        "cold": ["/img/kitchens/angular2parts/cold_1.jpg","/img/kitchens/angular2parts/cold_2.jpg","/img/kitchens/angular2parts/cold_3.jpg"]
+    },
+    "regular": {
+        "warm": ["/img/kitchens/regular/warm_1.jpg","/img/kitchens/regular/warm_2.jpg","/img/kitchens/regular/warm_3.jpg"],
+        "day": ["/img/kitchens/regular/day_1.jpg","/img/kitchens/regular/day_2.jpg","/img/kitchens/regular/day_3.jpg"],
+        "cold": ["/img/kitchens/regular/cold_1.jpg","/img/kitchens/regular/cold_2.jpg","/img/kitchens/regular/cold_3.jpg"]
+    },
+    "regular2parts": {
+        "warm": ["/img/kitchens/regular2parts/warm_1.jpg","/img/kitchens/regular2parts/warm_2.jpg","/img/kitchens/regular2parts/warm_3.jpg"],
+        "day": ["/img/kitchens/regular2parts/day_1.jpg","/img/kitchens/regular2parts/day_2.jpg","/img/kitchens/regular2parts/day_3.jpg"],
+        "cold": ["/img/kitchens/regular2parts/cold_1.jpg","/img/kitchens/regular2parts/cold_2.jpg","/img/kitchens/regular2parts/cold_3.jpg"]
+    }
+}

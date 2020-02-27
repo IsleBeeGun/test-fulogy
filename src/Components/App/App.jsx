@@ -9,7 +9,7 @@ export class App extends React.Component {
     return (
       <div className="app-container">
         <Header />
-        <Main />
+        <Main images={this.props.images}/>
         <Navigator />
       </div>
     )

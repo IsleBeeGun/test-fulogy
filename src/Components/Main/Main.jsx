@@ -8,7 +8,7 @@ export class Main extends React.Component {
   render() {
     return (
       <main className="main-container">
-        <Preview />
+        <Preview images={this.props.images} />
         <div className="details-and-selected-container">
           <Details />
           <Selected />
