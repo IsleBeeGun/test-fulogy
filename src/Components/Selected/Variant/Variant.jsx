@@ -3,6 +3,6 @@ import "./Variant.scss";
 
 export class Variant extends React.Component {
   render() {
-    return <div></div>
+    return <div>Variants here</div>
   }
 }

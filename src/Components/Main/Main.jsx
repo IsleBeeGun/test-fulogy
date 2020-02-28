@@ -11,7 +11,7 @@ export class Main extends React.Component {
         <Preview images={this.props.images} />
         <div className="details-and-selected-container">
           <Details />
-          <Selected />
+          <Selected option={this.props.option} options={this.props.options}/>
         </div>
       </main>
     );

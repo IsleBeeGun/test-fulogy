@@ -3,6 +3,6 @@ import "./Sensor.scss";
 
 export class Sensor extends React.Component {
   render() {
-    return <div></div>
+    return <div>set sensor here</div>
   }
 }

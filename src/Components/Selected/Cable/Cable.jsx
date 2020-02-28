@@ -3,6 +3,6 @@ import "./Cable.scss";
 
 export class Cable extends React.Component {
   render() {
-    return <div></div>
+    return <div>set cable here</div>
   }
 }

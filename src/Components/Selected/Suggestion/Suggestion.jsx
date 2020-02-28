@@ -6,7 +6,7 @@ export class Suggestion extends React.Component {
   render() {
     return <div className="suggestion-container">
       <Info />
-      <div>Do something</div>
+      <div>{this.props.option.suggestion}</div>
     </div>
   }
 }

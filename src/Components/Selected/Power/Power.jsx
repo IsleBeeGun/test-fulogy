@@ -3,6 +3,6 @@ import "./Power.scss";
 
 export class Power extends React.Component {
   render() {
-    return <div></div>
+    return <div>set power here</div>
   }
 }

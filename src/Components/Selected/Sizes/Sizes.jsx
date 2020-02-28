@@ -3,6 +3,6 @@ import "./Sizes.scss";
 
 export class Sizes extends React.Component {
   render() {
-    return <div></div>
+    return <div>set sizes here</div>
   }
 }
