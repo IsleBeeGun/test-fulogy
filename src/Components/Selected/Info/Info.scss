@@ -1,7 +1,7 @@
 @import "../../../style-variables";
 
 .info-container {
-    background-color: skyblue;
+    background-color: $info_color;
     width: $info_width;
     box-sizing: border-box;
 }

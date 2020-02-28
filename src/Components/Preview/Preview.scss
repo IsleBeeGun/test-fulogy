@@ -4,47 +4,57 @@
   flex: 1 1 auto;
   max-width: $preview_width;
   min-height: $preview_height;
-  background-color: maroon;
   padding: $preview_padding calc(#{$preview_padding} + 10px);
   // padding-right: calc(#{$preview_padding} + 20px);
   box-sizing: border-box;
+  img {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 100%, 0%, 0.2);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.5);
+  }
+}
+
+.slick-slide {
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .control-dots {
-    position: absolute;
-    min-width: 100%;
-    bottom: $dots_height;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    z-index: 5;
-  }
-  
-  .control-dots li {
-    list-style: none;
-    display: inline;
-    cursor: pointer;
-    margin: 0 12px;
-    padding: 0;
-  }
-  
-  .control-dots li button {
-    border: none;
-    padding: 0px;
-    background: #c9c9c9;
-    color: transparent;
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
-  }
-  
-  .control-dots li.slick-active button {
-    background: linear-gradient(91.83deg, #93e08c -1.93%, #78cebf 97.03%);
-    outline: 0;
-  }
-  
-  .control-dots li button:focus,
-  .control-dots li button:hover {
-    outline: 0px !important;
-  }
+  position: absolute;
+  min-width: 100%;
+  bottom: $dots_height;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 5;
+}
+
+.control-dots li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+  margin: 0 12px;
+  padding: 0;
+}
+
+.control-dots li button {
+  border: none;
+  padding: 0px;
+  background: #c9c9c9;
+  color: transparent;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.control-dots li.slick-active button {
+  background: linear-gradient(91.83deg, #93e08c -1.93%, #78cebf 97.03%);
+  outline: 0;
+}
+
+.control-dots li button:focus,
+.control-dots li button:hover {
+  outline: 0px !important;
+}

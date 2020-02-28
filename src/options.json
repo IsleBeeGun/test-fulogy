@@ -1,0 +1,101 @@
+{
+    "variant": {
+        "name": "Вариант кухни",
+        "suggestion": "Выберите вариант Вашей кухни",
+        "info": "Здесь длинный текст с подробностями о вариантах кухни",
+        "type": {
+            "angular": {
+                "name": "Угловая секция",
+                "warm": "/img/kitchens/angular/warm_1.jpg",
+                "day": "/img/kitchens/angular/day_1.jpg",
+                "cold": "/img/kitchens/angular/cold_1.jpg"
+            },
+            "angular2parts": {
+                "name": "Угловая раздельная секция",
+                "warm": "/img/kitchens/angular2parts/warm_1.jpg",
+                "day": "/img/kitchens/angular2parts/day_1.jpg",
+                "cold": "/img/kitchens/angular2parts/cold_1.jpg"
+            },
+            "regular": {
+                "name": "Единая секция",
+                "warm": "/img/kitchens/regular/warm_1.jpg",
+                "day": "/img/kitchens/regular/day_1.jpg",
+                "cold": "/img/kitchens/regular/cold_1.jpg"
+            },
+            "regular2parts": {
+                "name": "Раздельная секция",
+                "warm": "/img/kitchens/regular2parts/warm_1.jpg",
+                "day": "/img/kitchens/regular2parts/day_1.jpg",
+                "cold": "/img/kitchens/regular2parts/cold_1.jpg"
+            }
+        }
+    },
+    "sizes": {
+        "name": "Размеры",
+        "suggestion": "Выберите размер Вашей кухни",
+        "info": "Здесь длинный текст с подробностями о размерах кухни",
+        "type": {
+            "small": {
+                "name": "Небольшая кухня"
+            },
+            "medium": {
+                "name": "Кухня средних размеров"
+            },
+            "large": {
+                "name": "Просторная кухня"
+            }
+        }
+    },
+    "sensor": {
+        "name": "Сенсор",
+        "suggestion": "Выберите сенсор",
+        "info": "Здесь длинный текст с подробностями о преимуществах сенсора Proximity Smart Dimmer",
+        "type": {
+            "nosensor": {
+                "name": "Без сенсора"
+            },
+            "proximity-smart-dimmer": {
+                "name": "Proximity Smart Dimmer S-LD"
+            }
+        }
+    },
+    "cable": {
+        "name": "Питающий кабель",
+        "suggestion": "Длина кабеля до блока питания в сантиметрах",
+        "info": "Здесь длинный текст с подробностями о кабелях",
+        "type": {
+            "length": {
+                "name": "Длина"
+            }
+        }
+    },
+    "power": {
+        "name": "Блок питания",
+        "suggestion": "Выберите особенность блока питания",
+        "info": "Здесь длинный текст с подробностями о блоках питания",
+        "type": {
+            "option-1": {
+                "name": "опция номер 1"
+            },
+            "option-2": {
+                "name": "опция номер 1"
+            }
+        }
+    },
+    "mount": {
+        "name": "Монтаж",
+        "suggestion": "Необходимы ли Вам монтажные услуги?",
+        "info": "Здесь длинный текст с подробностями о качественном монтаже",
+        "type": {
+            "yes": {
+                "name": "Да"
+            },
+            "no": {
+                "name": "Нет"
+            }
+        }
+    },
+    "basket": {
+        "name": "Корзина"
+    }
+}

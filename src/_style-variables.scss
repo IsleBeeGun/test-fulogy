@@ -1,12 +1,21 @@
-$header_height: 100px;
-$navigator_height: 120px;
+// Height settings
+$header_height: 10vh;
+$navigator_height: 12vh;
 $details_height: 52.5%;
 $suggestion_height: 100px;
-$preview_height: calc(100vmin - (#{$header_height} + #{$navigator_height}));
+$preview_height: calc(100vh - (#{$header_height} + #{$navigator_height}));
+$dots_height: 60px;
 
+
+// Width settings
 $info_width: $suggestion_height;
 $preview_width: calc(#{$preview_height} * 1.333);
 
-$preview_padding: 40px;
 
-$dots_height: 40px;
+$preview_padding: 20px;
+
+
+
+$border_style: 2px solid hsla(0, 100%, 0%, 0.1);
+$suggestion_color: rgb(31, 183, 252);
+$info_color: darken($suggestion_color, 7%);

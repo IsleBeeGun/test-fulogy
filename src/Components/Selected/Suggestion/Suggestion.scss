@@ -2,7 +2,7 @@
 
 .suggestion-container {
     width: 100%;
-    background-color: royalblue;
+    background-color: $suggestion_color;
     min-height: $suggestion_height;
     display: flex;
     flex-direction: row;
