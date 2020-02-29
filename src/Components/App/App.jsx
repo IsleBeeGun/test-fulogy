@@ -23,8 +23,9 @@ export class App extends React.Component {
           options={this.props.options}
         />
         <Navigator
-          options={this.props.options}
           changeOption={this.changeOption}
+          option={this.state.option}
+          options={this.props.options}
         />
       </div>
     );

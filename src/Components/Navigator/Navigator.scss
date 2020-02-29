@@ -20,3 +20,8 @@
     margin-right: calc(#{$preview_padding} + 30px);
   }
 }
+
+.highlighted {
+  background-color: red;
+  outline: none;
+}
