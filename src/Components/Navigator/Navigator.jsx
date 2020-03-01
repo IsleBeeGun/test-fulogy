@@ -2,13 +2,6 @@ import React from "react";
 import "./Navigator.scss";
 
 export class Navigator extends React.Component {
-  // constructor(props){
-  //   super(props);
-  //   this.handleClick = this.handleClick.bind(this);
-  // }
-  // handleClick(event) {
-
-  // }
   render() {
     return (
       <nav className="navigator-container">
@@ -27,18 +20,33 @@ export class Navigator extends React.Component {
               </button>
             );
           } else {
-            return (
-              <button
-                className="option-button"
-                value={option.value}
-                key={index + option.name}
-                onClick={event => {
-                  this.props.changeOption(event.target.value);
-                }}
-              >
-                {option.name}
-              </button>
-            );
+            if (option.value === "mount" || option.value === "basket") {
+              return (
+                <button
+                  className="option-button alternative"
+                  value={option.value}
+                  key={index + option.name}
+                  onClick={event => {
+                    this.props.changeOption(event.target.value);
+                  }}
+                >
+                  {option.name}
+                </button>
+              );
+            } else {
+              return (
+                <button
+                  className="option-button"
+                  value={option.value}
+                  key={index + option.name}
+                  onClick={event => {
+                    this.props.changeOption(event.target.value);
+                  }}
+                >
+                  {option.name}
+                </button>
+              );
+            }
           }
         })}
       </nav>

@@ -2,11 +2,10 @@
 
 .main-container {
     width: 100%;
-    max-height: calc(100vh - (#{$header_height} + #{$navigator_height}));
+    max-height: $preview_height;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    box-sizing: border-box;
     border-bottom: $border_style;
     border-top: $border_style;
 }
@@ -14,8 +13,7 @@
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+    flex-wrap: nowrap;
     border-left: $border_style;
     border-right: $border_style;
 }

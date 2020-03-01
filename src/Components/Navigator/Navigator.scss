@@ -8,11 +8,22 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  z-index: 5;
+  background-color: $background_color;
 }
 
 .option-button {
   flex: 1 1 auto;
-  max-width: 224px;
+  max-width: 11vw;
+  min-width: 11vw;
+  font-size: 1.4vw;
+  padding: 1vw;
+  line-height: 2.6vh;
+  color: $text_color;
+  outline: none;
+  border-bottom: 0.7vh solid $suggestion_color;
+  border-top: 0px solid transparent;
+  background-color: $background_color;
   &:nth-child(1) {
     margin-left: calc(#{$preview_padding} + 30px);
   }
@@ -22,6 +33,9 @@
 }
 
 .highlighted {
-  background-color: red;
-  outline: none;
+  background-color: $suggestion_color;
+  color: white;
+}
+.alternative {
+  border-bottom: 0.7vh solid $alternative_color;
 }

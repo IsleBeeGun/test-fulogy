@@ -18,7 +18,7 @@ export class Preview extends React.Component {
     return (
       <div className="preview-container">
         <Slider ref={c => (this.slider = c)} {...settings}>
-          {this.props.images.regular.warm.map((img_url, counter) => {
+          {this.props.images.map((img_url, counter) => {
             return <img alt="" src={img_url} key={"img-" + counter}/>;
           })}
         </Slider>

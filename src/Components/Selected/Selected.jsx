@@ -20,17 +20,21 @@ export class Selected extends React.Component {
     color: Color,
     mount: Mount,
     basket: Basket
-  }
+  };
   render() {
-    const ComponentName = this.components[this.props.option];
+    const ComponentName = this.components[this.props.option.value];
     return (
       <div className="selected-container">
         <Suggestion
-          option={this.props.options.find(option => {
-            return option.value === this.props.option;
-          })}
+          changeSetting={this.props.changeSetting}
+          toggleInfo={this.props.toggleInfo}
+          option={this.props.option}
         />
-        <ComponentName />
+        <ComponentName
+          changeSetting={this.props.changeSetting}
+          superstate={this.props.superstate}
+          option={this.props.option}
+        />
       </div>
     );
   }

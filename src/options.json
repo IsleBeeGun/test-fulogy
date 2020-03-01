@@ -54,7 +54,7 @@
         {
             "value": "cable",
             "name": "Питающий кабель",
-            "suggestion": "Длина кабеля до блока питания в сантиметрах",
+            "suggestion": "Длина кабеля до блока питания",
             "info": "Здесь длинный текст с подробностями о кабелях",
             "type": {
                 "length": {
@@ -82,36 +82,80 @@
             "suggestion": "Выберите цвет свечения",
             "info": "Здесь длинный текст с подробностями о цвете свечения",
             "type": {
-                "angular": {
-                    "name": "Угловая секция",
-                    "warm": "/img/kitchens/angular/warm_1.jpg",
-                    "day": "/img/kitchens/angular/day_1.jpg",
-                    "cold": "/img/kitchens/angular/cold_1.jpg"
-                },
-                "angular2parts": {
-                    "name": "Угловая раздельная секция",
-                    "warm": "/img/kitchens/angular2parts/warm_1.jpg",
-                    "day": "/img/kitchens/angular2parts/day_1.jpg",
-                    "cold": "/img/kitchens/angular2parts/cold_1.jpg"
-                },
-                "regular": {
-                    "name": "Единая секция",
-                    "warm": "/img/kitchens/regular/warm_1.jpg",
-                    "day": "/img/kitchens/regular/day_1.jpg",
-                    "cold": "/img/kitchens/regular/cold_1.jpg"
-                },
-                "regular2parts": {
-                    "name": "Раздельная секция",
-                    "warm": "/img/kitchens/regular2parts/warm_1.jpg",
-                    "day": "/img/kitchens/regular2parts/day_1.jpg",
-                    "cold": "/img/kitchens/regular2parts/cold_1.jpg"
-                }
+                "angular": [
+                    {
+                        "value": "warm",
+                        "name": "Тёплый",
+                        "img": "/img/kitchens/angular/warm_1.jpg"
+                    },
+                    {
+                        "value": "day",
+                        "name": "Дневной",
+                        "img": "/img/kitchens/angular/day_1.jpg"
+                    },
+                    {
+                        "value": "cold",
+                        "name": "Холодный",
+                        "img": "/img/kitchens/angular/cold_1.jpg"
+                    }
+                ],
+                "angular2parts": [
+                    {
+                        "value": "warm",
+                        "name": "Тёплый",
+                        "img": "/img/kitchens/angular2parts/warm_1.jpg"
+                    },
+                    {
+                        "value": "day",
+                        "name": "Дневной",
+                        "img": "/img/kitchens/angular2parts/day_1.jpg"
+                    },
+                    {
+                        "value": "cold",
+                        "name": "Холодный",
+                        "img": "/img/kitchens/angular2parts/cold_1.jpg"
+                    }
+                ],
+                "regular": [
+                    {
+                        "value": "warm",
+                        "name": "Тёплый",
+                        "img": "/img/kitchens/regular/warm_1.jpg"
+                    },
+                    {
+                        "value": "day",
+                        "name": "Дневной",
+                        "img": "/img/kitchens/regular/day_1.jpg"
+                    },
+                    {
+                        "value": "cold",
+                        "name": "Холодный",
+                        "img": "/img/kitchens/regular/cold_1.jpg"
+                    }
+                ],
+                "regular2parts": [
+                    {
+                        "value": "warm",
+                        "name": "Тёплый",
+                        "img": "/img/kitchens/regular2parts/warm_1.jpg"
+                    },
+                    {
+                        "value": "day",
+                        "name": "Дневной",
+                        "img": "/img/kitchens/regular2parts/day_1.jpg"
+                    },
+                    {
+                        "value": "cold",
+                        "name": "Холодный",
+                        "img": "/img/kitchens/regular2parts/cold_1.jpg"
+                    }
+                ]
             }
         },
         {
             "value": "mount",
             "name": "Монтаж",
-            "suggestion": "Необходимы ли Вам монтажные услуги?",
+            "suggestion": "Включить монтажные услуги?",
             "info": "Здесь длинный текст с подробностями о качественном монтаже",
             "type": {
                 "yes": {

@@ -1,11 +1,20 @@
 @import "../../../style-variables";
 
 .suggestion-container {
-    width: 100%;
-    background-color: $suggestion_color;
-    min-height: $suggestion_height;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
+  width: 100%;
+  background-color: $suggestion_color;
+  min-height: $suggestion_height;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.suggestion-text-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.suggestion-text {
+  color: white;
+  font-size: 2.4vh;
+  margin: auto;
 }
