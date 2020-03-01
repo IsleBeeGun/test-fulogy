@@ -49,8 +49,10 @@ export class App extends React.Component {
         )}
         <Navigator
           changeOption={this.changeOption}
+          toggleInfo={this.toggleInfo}
           option={this.state.option}
           options={this.props.options}
+          superstate={this.state}
         />
       </div>
     );

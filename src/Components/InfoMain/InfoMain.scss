@@ -23,6 +23,12 @@
         color: $suggestion_color;
         transform: scale(1.1);
     }
+    span {
+        margin-left: 1vw;
+    }
+    i {
+        font-size: calc(#{$text_size_normal} - 20%);
+    }
 }
 .infomain-text {
     margin-top: $regular_padding;

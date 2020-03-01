@@ -2,6 +2,16 @@ import React from "react";
 import "./Navigator.scss";
 
 export class Navigator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(event) {
+    this.props.changeOption(event.target.value);
+    if (this.props.superstate.isInfoVisible) {
+      this.props.toggleInfo();
+    }
+  }
   render() {
     return (
       <nav className="navigator-container">
@@ -26,9 +36,7 @@ export class Navigator extends React.Component {
                   className="option-button alternative"
                   value={option.value}
                   key={index + option.name}
-                  onClick={event => {
-                    this.props.changeOption(event.target.value);
-                  }}
+                  onClick={this.handleClick}
                 >
                   {option.name}
                 </button>
@@ -39,9 +47,7 @@ export class Navigator extends React.Component {
                   className="option-button"
                   value={option.value}
                   key={index + option.name}
-                  onClick={event => {
-                    this.props.changeOption(event.target.value);
-                  }}
+                  onClick={this.handleClick}
                 >
                   {option.name}
                 </button>
