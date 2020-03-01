@@ -8,7 +8,12 @@ export class Variant extends React.Component {
         {Object.entries(this.props.option.type).map((type, index) => {
           return (
             <div key={index + "-" + type[0]} className="variant-element">
-              <div className="variant-control">
+              <div
+                className="variant-control"
+                onClick={() => {
+                  document.getElementById(index + "-" + type[0]).click();
+                }}
+              >
                 <input
                   checked={
                     this.props.superstate.variant === type[0] ? true : false

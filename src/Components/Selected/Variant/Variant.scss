@@ -10,8 +10,24 @@
     width: 50%;
     padding: $regular_padding;
     .variant-control {
+      background-color: lighten($suggestion_color, 30%);
+      border: $border_style;
+      border-width: 1px;
+      min-height: 7vh;
+      border-radius: 5px;
+      padding: 1vh;
+      height: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center;
       label {
+        flex: 1 1 auto;
         margin-left: 2vh;
+        font-size: $text_size_small;
+      }
+      &:hover {
+        background-color: lighten($suggestion_color, 40%);
       }
     }
   }

@@ -3,7 +3,6 @@
 .navigator-container {
   height: $navigator_height;
   width: 100%;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -21,6 +20,8 @@
   line-height: 2.6vh;
   color: $text_color;
   outline: none;
+  border: $border_style;
+  border-width: 1px;
   border-bottom: 0.7vh solid $suggestion_color;
   border-top: 0px solid transparent;
   background-color: $background_color;
@@ -29,6 +30,10 @@
   }
   &:nth-last-child(1) {
     margin-right: calc(#{$preview_padding} + 30px);
+  }
+  &:hover{
+    background-color: lighten($suggestion_color, 20%);
+    transition: all 0.2s ease-in-out;
   }
 }
 

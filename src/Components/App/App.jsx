@@ -8,11 +8,16 @@ import { Navigator } from "../Navigator/Navigator";
 export class App extends React.Component {
   constructor(props) {
     super(props);
+    // Default values
     this.state = {
       option: "variant",
       variant: "angular",
       color: "warm",
       info: "",
+      sizes: "medium",
+      sensor: "proximity-smart-dimmer",
+      power: "option-1",
+      mount: "yes",
       isInfoVisible: false
     };
     this.changeOption = this.changeOption.bind(this);
