@@ -8,7 +8,7 @@ export class InfoMain extends React.Component {
       <section className="infomain-container">
         <div>
           <button className="infomain-back" onClick={this.props.toggleInfo}>
-            <i class="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-left"></i>
             <span>Вернуться</span>
           </button>
         </div>

@@ -1,30 +1,60 @@
+//DO NOT CHANGE ORDER
+
 // Height settings
 $header_height: 10vh;
 $navigator_height: 12vh;
+$logo_height: 8vh;
 $details_height: 40vh;
 $suggestion_height: 11vh;
 $preview_height: calc(100vh - (#{$header_height} + #{$navigator_height}));
+$menu_height: calc(100vh - #{$header_height});
 $details_and_selected_height: $preview_height;
 $dots_height: 60px;
-
 
 // Width settings
 $info_width: $suggestion_height;
 $preview_width: calc(#{$preview_height} * 1.333);
+$menu_width: 25vw;
 
 // Padding & Margin
 $preview_padding: 20px;
 $regular_padding: 3vmin;
 
-
 // Color and Style
+$light_color: white;
+$header_color: rgb(26, 26, 26);
 $border_style: 2px solid hsla(0, 100%, 0%, 0.1);
+$border_style_light: 2px solid hsla(0, 100%, 100%, 0.1);
 $main_theme_color: rgb(31, 183, 252);
+$main_theme_color_grad: linear-gradient(
+  145deg,
+  lighten($main_theme_color, 5%),
+  darken($main_theme_color, 5%)
+);
 $suggestion_color: $main_theme_color;
 $background_color: rgb(248, 248, 248);
+$background_color_grad: linear-gradient(
+    145deg,
+    lighten($background_color, 3%),
+    darken($background_color, 3%)
+  );
 $alternative_color: rgb(253, 130, 133);
 $text_color: rgb(68, 68, 68);
-$info_color: darken($suggestion_color, 7%);
+$info_color: darken($main_theme_color, 7%);
+$info_color_grad: linear-gradient(
+  145deg,
+  lighten($info_color, 5%),
+  darken($info_color, 5%)
+);
+$menu_bg_color: rgb(33, 33, 33);
+$menu_bg_color_grad: linear-gradient(
+  145deg,
+  lighten($menu_bg_color, 5%),
+  darken($menu_bg_color, 5%)
+);
+$menu_bg_color_hover: rgb(66, 66, 66);
+
+
 
 // Text size
 $text_size_normal: 3vh;

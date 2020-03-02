@@ -1,9 +1,39 @@
 @import "../../style-variables";
 
 .header-container {
-    height: $header_height;
-    width: 100%;
-    background-color: rgb(26, 26, 26);
-    color: white;
-    box-sizing: border-box;
+  height: $header_height;
+  width: 100%;
+  background-color: $header_color;
+  color: $light_color;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.logo-container {
+  margin: calc(#{$regular_padding} / 2);
+  margin-left: calc(#{$preview_padding} + 25px);
+  .logo {
+    height: $logo_height;
+  }
+}
+.shopping-cart-container {
+  margin: $regular_padding;
+  color: $light_color;
+  margin-left: auto;
+  font-size: $text_size_normal;
+}
+.burger-menu-container {
+  margin: $regular_padding;
+  margin-right: calc(#{$regular_padding} * 2);
+  color: $light_color;
+  font-size: $text_size_normal;
+  width: $text_size_normal;
+  i {
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  i:hover {
+    color: $main_theme_color;
+  }
 }

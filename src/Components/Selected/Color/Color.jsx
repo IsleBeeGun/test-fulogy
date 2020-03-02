@@ -13,6 +13,7 @@ export class Color extends React.Component {
                   key={index + "-" + color.name}
                   className="color-element selected"
                 >
+                  <i className="fas fa-check-square checkmark"></i>
                   <img
                     src={color.img}
                     alt=""
@@ -34,6 +35,7 @@ export class Color extends React.Component {
                   <img
                     src={color.img}
                     alt=""
+                    id={index + "-" + color.name} 
                     value={color.value}
                     onClick={() => {
                       this.props.changeSetting(
@@ -42,7 +44,13 @@ export class Color extends React.Component {
                       );
                     }}
                   />
-                  <span>{color.name}</span>
+                  <span
+                    onClick={() => {
+                      document.getElementById(index + "-" + color.name).click();
+                    }}
+                  >
+                    {color.name}
+                  </span>
                 </div>
               );
             }

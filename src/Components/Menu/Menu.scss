@@ -1,0 +1,42 @@
+@import "../../style-variables";
+
+.menu-container {
+  position: absolute;
+  width: $menu_width;
+  height: $menu_height;
+  left: calc(100vw - #{$menu_width});
+  top: $header_height;
+  z-index: 5;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-color: $menu_bg_color;
+  border: $border_style_light;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+.menu-element {
+  border-bottom: $border_style_light;
+  background: $menu_bg_color_grad;
+  width: 100%;
+  height: calc(#{$menu_height} / 8);
+  display: flex;
+  align-items: center;
+  transition: background 0.4s ease-in-out;
+  cursor: pointer;
+  .menu-text {
+    color: $light_color;
+    font-size: $text_size_small;
+    margin: auto;
+    cursor: pointer;
+  }
+  &:hover {
+      background: $menu_bg_color_hover;
+  }
+}

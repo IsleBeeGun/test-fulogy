@@ -15,6 +15,7 @@
   margin: calc(#{$regular_padding / 1.8});
   width: 25%;
   img {
+    cursor: pointer;
     max-width: 18vmin;
     border-radius: 5px;
     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
@@ -24,6 +25,7 @@
     }
   }
   span {
+    cursor: pointer;
     display: block;
     color: white;
     height: 0px;
@@ -40,4 +42,17 @@
 
 .selected {
   transform: scale(1.07);
+}
+.checkmark {
+  position: absolute;
+  z-index: 3;
+  font-size: $text_size_normal;
+  color: $main_theme_color;
+  background: linear-gradient(
+    transparent 15%,
+    $light_color 15%,
+    $light_color 85%,
+    transparent 85%
+  );
+  cursor: pointer;
 }

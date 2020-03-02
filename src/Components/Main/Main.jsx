@@ -10,7 +10,7 @@ export class Main extends React.Component {
       <main className="main-container">
         <Preview images={this.props.images} />
         <div className="details-and-selected-container">
-          <Details />
+          <Details mount={this.props.superstate.mount}/>
           <Selected
             changeSetting={this.props.changeSetting}
             toggleInfo={this.props.toggleInfo}

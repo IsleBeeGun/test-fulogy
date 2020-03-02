@@ -2,7 +2,7 @@
 
 .suggestion-container {
   width: 100%;
-  background-color: $suggestion_color;
+  background: $main_theme_color_grad;
   min-height: $suggestion_height;
   display: flex;
   flex-direction: row;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 .suggestion-text {
-  color: white;
+  color: $light_color;
   font-size: 2.4vh;
   margin: auto;
 }

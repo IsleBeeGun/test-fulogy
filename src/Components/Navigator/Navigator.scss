@@ -7,7 +7,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  z-index: 5;
+  z-index: 4;
   background-color: $background_color;
 }
 
@@ -22,9 +22,10 @@
   outline: none;
   border: $border_style;
   border-width: 1px;
-  border-bottom: 0.7vh solid $suggestion_color;
+  border-bottom: 0.7vh solid $main_theme_color;
   border-top: 0px solid transparent;
-  background-color: $background_color;
+  background: $background_color_grad;
+  cursor: pointer;
   &:nth-child(1) {
     margin-left: calc(#{$preview_padding} + 30px);
   }
@@ -32,14 +33,14 @@
     margin-right: calc(#{$preview_padding} + 30px);
   }
   &:hover{
-    background-color: lighten($suggestion_color, 20%);
+    background: lighten($main_theme_color, 20%);
     transition: all 0.2s ease-in-out;
   }
 }
 
 .highlighted {
-  background-color: $suggestion_color;
-  color: white;
+  background: $main_theme_color_grad;
+  color: $light_color;
 }
 .alternative {
   border-bottom: 0.7vh solid $alternative_color;

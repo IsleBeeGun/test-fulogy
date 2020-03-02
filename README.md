@@ -1,4 +1,32 @@
+## About this project
+
+This is a test project for [Fulogy](https://fulogy.com/) company.
+
+Test task can be found [here](https://drive.google.com/open?id=1FeZS8BEjB09ZuuYrcW8baEeI5b_NEFK8dBZR_Yncbjs).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Dependencies:
+
+"@fortawesome/fontawesome-free": "^5.12.1"
+
+"@testing-library/jest-dom": "^4.2.4"
+
+"@testing-library/react": "^9.4.1"
+
+"@testing-library/user-event": "^7.2.1"
+
+"node-sass": "^4.13.1"
+
+"react": "^16.13.0"
+
+"react-dom": "^16.13.0"
+
+"react-scripts": "3.4.0"
+
+"react-slick": "^0.25.2"
+
+"slick-carousel": "^1.8.1"
 
 ## Available Scripts
 
@@ -42,27 +70,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

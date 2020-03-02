@@ -15,7 +15,7 @@ export class Info extends React.Component {
       <div className="info-container">
         <div className="info-button-container">
           <button className="info-button" onClick={this.handleClick}>
-            i
+            <i className="fas fa-info"></i>
           </button>
         </div>
       </div>
